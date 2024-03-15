@@ -1,0 +1,166 @@
+.theme-container {
+  /* Dark theme (default) */
+  --lofi-background: #18181b;
+  --lofi-card: #27272a;
+  --lofi-card-hover: #3f3f46;
+  --lofi-border: #3f3f46;
+  --lofi-text-primary: #e4e4e7;
+  --lofi-text-secondary: #a1a1aa;
+  --lofi-button-bg: #3f3f46;
+  --lofi-button-hover: #52525b;
+  --lofi-button-text: #e4e4e7;
+  --lofi-accent: #7e22ce;
+  --lofi-accent-hover: #9333ea;
+  --lofi-card-radius: 0.75rem;
+  --lofi-button-radius: 0.5rem;
+  --lofi-card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.theme-container[data-theme='light'] {
+  --lofi-background: #f4f4f5;
+  --lofi-card: #e4e4e7;
+  --lofi-card-hover: #d4d4d8;
+  --lofi-border: #d4d4d8;
+  --lofi-text-primary: #18181b;
+  --lofi-text-secondary: #71717a;
+  --lofi-button-bg: #d4d4d8;
+  --lofi-button-hover: #a1a1aa;
+  --lofi-button-text: #27272a;
+  --lofi-accent: #7e22ce;
+  --lofi-accent-hover: #9333ea;
+  --lofi-card-radius: 0.75rem;
+  --lofi-button-radius: 0.5rem;
+  --lofi-card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.theme-container[data-theme='vintage'] {
+  --lofi-background: #f8e3c4; /* Warm cream background */
+  --lofi-card: #e6d0b0; /* Lighter cream for cards */
+  --lofi-card-hover: #d4be9c; /* Slightly darker on hover */
+  --lofi-border: #8b6d5c; /* Rich brown border */
+  --lofi-text-primary: #4a3628; /* Deep brown text */
+  --lofi-text-secondary: #6b5a4c; /* Medium brown text */
+  --lofi-button-bg: #c17f59; /* Terracotta buttons */
+  --lofi-button-hover: #d4956f; /* Lighter terracotta on hover */
+  --lofi-button-text: #f8e3c4; /* Light cream text */
+  --lofi-accent: #8b6d5c; /* Rich brown accent */
+  --lofi-accent-hover: #9d7e6d; /* Lighter brown on hover */
+  --lofi-card-radius: 0.5rem; /* Subtle rounding */
+  --lofi-button-radius: 0.25rem; /* Minimal button rounding */
+  --lofi-card-shadow: 0 4px 12px rgba(139, 109, 92, 0.2),
+    0 0 0 1px rgba(139, 109, 92, 0.15), inset 0 1px 0 0 rgba(248, 227, 196, 0.5),
+    2px 2px 0 rgba(139, 109, 92, 0.1);
+}
+
+.theme-container[data-theme='metallic'] {
+  --lofi-background: #0f1215; /* Nearly black background */
+  --lofi-card: #1a1f25; /* Dark gunmetal */
+  --lofi-card-hover: #252b33; /* Lighter gunmetal on hover */
+  --lofi-border: #3a424d; /* Medium steel */
+  --lofi-text-primary: #e2e8f0; /* Bright steel */
+  --lofi-text-secondary: #94a3b8; /* Muted steel */
+  --lofi-button-bg: #2d343d; /* Dark steel buttons */
+  --lofi-button-hover: #3a424d; /* Medium steel on hover */
+  --lofi-button-text: #e2e8f0; /* Bright steel text */
+  --lofi-accent: #718096; /* Cool gray accent */
+  --lofi-accent-hover: #8b97aa; /* Lighter steel on hover */
+  --lofi-card-radius: 0.25rem; /* Sharp corners for metallic feel */
+  --lofi-button-radius: 0.125rem; /* Very subtle button rounding */
+  --lofi-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.05), 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.theme-container[data-theme='midnight'] {
+  --lofi-background: #0a0c10; /* Darker than default dark theme */
+  --lofi-card: #141820; /* Deep blue-tinted dark */
+  --lofi-card-hover: #1c2230; /* Slightly lighter on hover */
+  --lofi-border: #252d3d; /* Subtle blue-gray border */
+  --lofi-text-primary: #e2e8f0; /* Soft white with blue tint */
+  --lofi-text-secondary: #94a3b8; /* Muted blue-gray */
+  --lofi-button-bg: #252d3d; /* Deep blue-gray */
+  --lofi-button-hover: #2f3b4f; /* Lighter blue-gray on hover */
+  --lofi-button-text: #e2e8f0; /* Same as text-primary */
+  --lofi-accent: #3b82f6; /* Bright blue accent */
+  --lofi-accent-hover: #60a5fa; /* Lighter blue on hover */
+  --lofi-card-radius: 0.75rem;
+  --lofi-button-radius: 0.5rem;
+  --lofi-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.02);
+}
+
+.theme-container[data-theme='cyberpunk'] {
+  --lofi-background: #0f0326; /* Deep purple background */
+  --lofi-card: #1a0940; /* Richer purple for cards */
+  --lofi-card-hover: #2a0c66; /* Brighter purple on hover */
+  --lofi-border: #ff2a6d; /* Neon pink border */
+  --lofi-text-primary: #05ffa1; /* Bright cyan text */
+  --lofi-text-secondary: #14acc2; /* Muted cyan */
+  --lofi-button-bg: #2a0c66; /* Deep purple buttons */
+  --lofi-button-hover: #3d1a75; /* Lighter purple on hover */
+  --lofi-button-text: #05ffa1; /* Cyan button text */
+  --lofi-accent: #ff2a6d; /* Neon pink accent */
+  --lofi-accent-hover: #ff4081; /* Lighter pink on hover */
+  --lofi-card-radius: 0.25rem; /* Sharp corners for cyber feel */
+  --lofi-button-radius: 0rem; /* Square buttons */
+  --lofi-card-shadow: 0 0 10px rgba(255, 42, 109, 0.3),
+    0 0 20px rgba(5, 255, 161, 0.1), inset 0 0 2px rgba(255, 42, 109, 0.5);
+}
+
+.theme-container[data-theme='forest'] {
+  --lofi-background: #1a2f1c; /* Deep forest green */
+  --lofi-card: #2a412c; /* Darker green for cards */
+  --lofi-card-hover: #35513e; /* Lighter green on hover */
+  --lofi-border: #4a6b4d; /* Muted green border */
+  --lofi-text-primary: #d4e5d4; /* Soft green-white */
+  --lofi-text-secondary: #95ab96; /* Muted sage */
+  --lofi-button-bg: #3c5a3e; /* Forest green buttons */
+  --lofi-button-hover: #4a714d; /* Lighter green on hover */
+  --lofi-button-text: #d4e5d4; /* Light text */
+  --lofi-accent: #7fb069; /* Moss green accent */
+  --lofi-accent-hover: #96c37c; /* Lighter moss on hover */
+  --lofi-card-radius: 1.5rem; /* Organic, rounded corners */
+  --lofi-button-radius: 1rem; /* Soft buttons */
+  --lofi-card-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(126, 176, 105, 0.1),
+    inset 0 1px 0 0 rgba(212, 229, 212, 0.05);
+}
+
+.theme-container[data-theme='ocean'] {
+  --lofi-background: #0a192f; /* Deep ocean blue */
+  --lofi-card: #112240; /* Darker blue for cards */
+  --lofi-card-hover: #1a365d; /* Lighter blue on hover */
+  --lofi-border: #234876; /* Medium blue border */
+  --lofi-text-primary: #e6f1ff; /* Soft blue-white */
+  --lofi-text-secondary: #8892b0; /* Muted blue-gray */
+  --lofi-button-bg: #1a365d; /* Ocean blue buttons */
+  --lofi-button-hover: #234876; /* Lighter blue on hover */
+  --lofi-button-text: #e6f1ff; /* Light text */
+  --lofi-accent: #64ffda; /* Aqua accent */
+  --lofi-accent-hover: #88fff0; /* Lighter aqua on hover */
+  --lofi-card-radius: 0.5rem; /* Gentle waves */
+  --lofi-button-radius: 0.25rem; /* Subtle curves */
+  --lofi-card-shadow: 0 4px 15px rgba(100, 255, 218, 0.07),
+    0 0 0 1px rgba(100, 255, 218, 0.1),
+    inset 0 1px 0 0 rgba(230, 241, 255, 0.05);
+}
+
+.theme-container[data-theme='sunset'] {
+  --lofi-background: #2d1b2d; /* Deep purple-red */
+  --lofi-card: #3d2438; /* Darker mauve for cards */
+  --lofi-card-hover: #4d2d47; /* Lighter mauve on hover */
+  --lofi-border: #ff6b6b; /* Coral border */
+  --lofi-text-primary: #ffd6d6; /* Soft pink-white */
+  --lofi-text-secondary: #c4a5a5; /* Muted pink */
+  --lofi-button-bg: #ff6b6b; /* Coral buttons */
+  --lofi-button-hover: #ff8787; /* Lighter coral on hover */
+  --lofi-button-text: #2d1b2d; /* Dark text on buttons */
+  --lofi-accent: #ffc145; /* Golden accent */
+  --lofi-accent-hover: #ffd175; /* Lighter gold on hover */
+  --lofi-card-radius: 1rem; /* Soft corners */
+  --lofi-button-radius: 0.75rem; /* Rounded buttons */
+  --lofi-card-shadow: 0 4px 12px rgba(255, 107, 107, 0.1),
+    0 0 0 1px rgba(255, 107, 107, 0.1),
+    inset 0 1px 0 0 rgba(255, 214, 214, 0.05);
+}
